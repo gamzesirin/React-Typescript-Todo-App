@@ -1,0 +1,29 @@
+.todoInput {
+	padding: 12px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	margin-right: 10px;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.todoButton {
+	padding: 12px 24px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.todoButton:hover {
+	background-color: #0056b3;
+}
+
+.todoButton:hover {
+	background-color: #0056b3;
+}

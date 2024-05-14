@@ -1,0 +1,50 @@
+.todoItem {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.todoText {
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #333;
+}
+
+.todoButtons {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 10px;
+}
+
+.deleteButton,
+.colorButton {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.deleteButton {
+	background-color: #dc3545;
+	color: #fff;
+}
+
+.deleteButton:hover {
+	background-color: #c82333;
+}
+
+.colorButton {
+	background-color: #28a745;
+	color: #fff;
+}
+
+.colorButton:hover {
+	background-color: #218838;
+}
